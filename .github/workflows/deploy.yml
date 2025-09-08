@@ -1,0 +1,35 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Build site
+      run: |
+        # Copy public files to dist
+        mkdir -p dist
+        cp -r public-deployment/* dist/
+        
+    - name: Publish to Cloudflare Pages
+      uses: cloudflare/pages-action@v1
+      with:
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        projectName: saber-epc-portal
+        directory: dist
+        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Update SharePoint with deployment status
+      run: |
+        curl -X POST ${{ secrets.SHAREPOINT_WEBHOOK }} \
+          -H "Content-Type: application/json" \
+          -d '{"status": "deployed", "url": "https://epc.saberrenewable.energy", "timestamp": "'$(date -u +%Y-%m-%dT%H:%M:%SZ)'"}'

@@ -1,0 +1,51 @@
+[2025-09-08 18:14:36] [INFO] ==================== PROCESSOR START ====================
+[2025-09-08 18:14:36] [INFO] WhatIf mode: True
+[2025-09-08 18:14:36] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-08 18:14:48] [INFO] Successfully connected to SharePoint
+[2025-09-08 18:14:48] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-08 18:14:49] [INFO] Found 2 items to process
+[2025-09-08 18:14:49] [INFO] Processing item ID=1, Company='Test EPC Ltd'
+[2025-09-08 18:14:49] [INFO] Folder already exists: EPC Submissions/1 - Test EPC Ltd
+[2025-09-08 18:14:49] [ERROR] Critical error: Cannot process command because of one or more missing mandatory parameters: Path.
+[2025-09-08 18:14:49] [INFO] Disconnected from SharePoint
+[2025-09-08 18:14:49] [INFO] ==================== PROCESSOR END ====================
+[2025-09-08 18:15:07] [INFO] ==================== PROCESSOR START ====================
+[2025-09-08 18:15:07] [INFO] WhatIf mode: True
+[2025-09-08 18:15:07] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-08 18:15:29] [INFO] Successfully connected to SharePoint
+[2025-09-08 18:15:29] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-08 18:15:30] [INFO] Found 2 items to process
+[2025-09-08 18:15:30] [INFO] Processing item ID=1, Company='Test EPC Ltd'
+[2025-09-08 18:15:30] [INFO] Folder already exists: EPC Submissions/1 - Test EPC Ltd
+[2025-09-08 18:15:30] [INFO] No attachments found for item 1
+[2025-09-08 18:15:30] [WHATIF] [WHATIF] Would update item 1 with:
+[2025-09-08 18:15:30] [WHATIF] [WHATIF]   SubmissionFolder = https://saberrenewables.sharepoint.com/sites/SaberEPCPartners/EPC Submissions/1 - Test EPC Ltd
+[2025-09-08 18:15:30] [WHATIF] [WHATIF]   SubmissionHandled = true
+[2025-09-08 18:15:30] [INFO] Completed processing item 1
+[2025-09-08 18:15:30] [INFO] Processing item ID=3, Company='Test EPC Ltd 20250908_181349'
+[2025-09-08 18:15:30] [INFO] Folder already exists: EPC Submissions/3 - Test EPC Ltd 20250908_181349
+[2025-09-08 18:15:30] [INFO] No attachments found for item 3
+[2025-09-08 18:15:30] [WHATIF] [WHATIF] Would update item 3 with:
+[2025-09-08 18:15:30] [WHATIF] [WHATIF]   SubmissionFolder = https://saberrenewables.sharepoint.com/sites/SaberEPCPartners/EPC Submissions/3 - Test EPC Ltd 20250908_181349
+[2025-09-08 18:15:30] [WHATIF] [WHATIF]   SubmissionHandled = true
+[2025-09-08 18:15:30] [INFO] Completed processing item 3
+[2025-09-08 18:15:30] [INFO] Disconnected from SharePoint
+[2025-09-08 18:15:30] [INFO] ==================== PROCESSOR END ====================
+[2025-09-08 18:15:45] [INFO] ==================== PROCESSOR START ====================
+[2025-09-08 18:15:45] [INFO] WhatIf mode: False
+[2025-09-08 18:15:45] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-08 18:16:02] [INFO] Successfully connected to SharePoint
+[2025-09-08 18:16:02] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-08 18:16:02] [INFO] Found 2 items to process
+[2025-09-08 18:16:02] [INFO] Processing item ID=1, Company='Test EPC Ltd'
+[2025-09-08 18:16:03] [INFO] Folder already exists: EPC Submissions/1 - Test EPC Ltd
+[2025-09-08 18:16:03] [INFO] No attachments found for item 1
+[2025-09-08 18:16:03] [INFO] Updated item 1 with folder URL and handled flag
+[2025-09-08 18:16:03] [INFO] Completed processing item 1
+[2025-09-08 18:16:03] [INFO] Processing item ID=3, Company='Test EPC Ltd 20250908_181349'
+[2025-09-08 18:16:04] [INFO] Folder already exists: EPC Submissions/3 - Test EPC Ltd 20250908_181349
+[2025-09-08 18:16:04] [INFO] No attachments found for item 3
+[2025-09-08 18:16:04] [INFO] Updated item 3 with folder URL and handled flag
+[2025-09-08 18:16:04] [INFO] Completed processing item 3
+[2025-09-08 18:16:04] [INFO] Disconnected from SharePoint
+[2025-09-08 18:16:04] [INFO] ==================== PROCESSOR END ====================
