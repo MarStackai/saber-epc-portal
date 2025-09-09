@@ -9,7 +9,7 @@ CLIENT_ID=$(jq -r '.SharePoint.ClientId' "$CONFIG_FILE")
 TENANT=$(jq -r '.SharePoint.Tenant' "$CONFIG_FILE")
 
 # Run the processor
-/usr/bin/pwsh -File /home/marstack/saber_business_ops/scripts/process-epc.ps1 \
+/snap/bin/pwsh -File /home/marstack/saber_business_ops/scripts/process-epc.ps1 \
   -SiteUrl "$SITE_URL" \
   -ClientId "$CLIENT_ID" \
   -Tenant "$TENANT"

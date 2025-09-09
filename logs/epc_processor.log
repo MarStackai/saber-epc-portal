@@ -49,3 +49,463 @@
 [2025-09-08 18:16:04] [INFO] Completed processing item 3
 [2025-09-08 18:16:04] [INFO] Disconnected from SharePoint
 [2025-09-08 18:16:04] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:10:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:10:01] [INFO] WhatIf mode: False
+[2025-09-09 16:10:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:10:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 16:10:03] [INFO] Disconnected from SharePoint
+[2025-09-09 16:10:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:14:59] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:14:59] [INFO] WhatIf mode: True
+[2025-09-09 16:14:59] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:15:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:15:01] [INFO] WhatIf mode: False
+[2025-09-09 16:15:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:15:02] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 16:15:02] [INFO] Disconnected from SharePoint
+[2025-09-09 16:15:02] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:15:16] [INFO] Successfully connected to SharePoint
+[2025-09-09 16:15:16] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-09 16:15:16] [INFO] Found 1 items to process
+[2025-09-09 16:15:16] [INFO] Processing item ID=4, Company='Test EPC Ltd 20250909_161452'
+[2025-09-09 16:15:17] [INFO] Folder already exists: EPC Submissions/4 - Test EPC Ltd 20250909_161452
+[2025-09-09 16:15:17] [INFO] No attachments found for item 4
+[2025-09-09 16:15:17] [WHATIF] [WHATIF] Would update item 4 with:
+[2025-09-09 16:15:17] [WHATIF] [WHATIF]   SubmissionFolder = https://saberrenewables.sharepoint.com/sites/SaberEPCPartners/EPC Submissions/4 - Test EPC Ltd 20250909_161452
+[2025-09-09 16:15:17] [WHATIF] [WHATIF]   SubmissionHandled = true
+[2025-09-09 16:15:17] [INFO] Completed processing item 4
+[2025-09-09 16:15:17] [INFO] Disconnected from SharePoint
+[2025-09-09 16:15:17] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:20:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:20:02] [INFO] WhatIf mode: False
+[2025-09-09 16:20:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:20:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 16:20:03] [INFO] Disconnected from SharePoint
+[2025-09-09 16:20:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:25:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:25:01] [INFO] WhatIf mode: False
+[2025-09-09 16:25:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:25:02] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 16:25:02] [INFO] Disconnected from SharePoint
+[2025-09-09 16:25:02] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:30:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:30:02] [INFO] WhatIf mode: False
+[2025-09-09 16:30:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:30:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 16:30:03] [INFO] Disconnected from SharePoint
+[2025-09-09 16:30:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:31:38] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:31:38] [INFO] WhatIf mode: False
+[2025-09-09 16:31:38] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:31:54] [INFO] Successfully connected to SharePoint
+[2025-09-09 16:31:54] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-09 16:31:55] [INFO] Found 1 items to process
+[2025-09-09 16:31:55] [INFO] Processing item ID=4, Company='Test EPC Ltd 20250909_161452'
+[2025-09-09 16:31:55] [INFO] Folder already exists: EPC Submissions/4 - Test EPC Ltd 20250909_161452
+[2025-09-09 16:31:55] [INFO] No attachments found for item 4
+[2025-09-09 16:31:56] [INFO] Updated item 4 with folder URL and handled flag
+[2025-09-09 16:31:56] [INFO] Completed processing item 4
+[2025-09-09 16:31:56] [INFO] Disconnected from SharePoint
+[2025-09-09 16:31:56] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:35:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:35:01] [INFO] WhatIf mode: False
+[2025-09-09 16:35:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:35:02] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 16:35:02] [INFO] Disconnected from SharePoint
+[2025-09-09 16:35:02] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:40:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:40:02] [INFO] WhatIf mode: False
+[2025-09-09 16:40:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:40:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 16:40:03] [INFO] Disconnected from SharePoint
+[2025-09-09 16:40:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:45:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:45:01] [INFO] WhatIf mode: False
+[2025-09-09 16:45:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:45:02] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 16:45:02] [INFO] Disconnected from SharePoint
+[2025-09-09 16:45:02] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:50:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:50:02] [INFO] WhatIf mode: False
+[2025-09-09 16:50:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:50:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 16:50:03] [INFO] Disconnected from SharePoint
+[2025-09-09 16:50:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 16:55:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 16:55:01] [INFO] WhatIf mode: False
+[2025-09-09 16:55:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 16:55:02] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 16:55:02] [INFO] Disconnected from SharePoint
+[2025-09-09 16:55:02] [INFO] ==================== PROCESSOR END ====================
+[Tue Sep  9 16:59:51 BST 2025] Starting automated processor...
+[Tue Sep  9 05:00:01 PM BST 2025] Starting automated processor...
+[2025-09-09 17:00:29] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:00:29] [INFO] WhatIf mode: False
+[2025-09-09 17:00:29] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:00:45] [INFO] Successfully connected to SharePoint
+[2025-09-09 17:00:45] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-09 17:00:46] [INFO] No items to process (Status=Submitted and not handled)
+[2025-09-09 17:00:46] [INFO] Disconnected from SharePoint
+[2025-09-09 17:00:46] [INFO] ==================== PROCESSOR END ====================
+[Tue Sep  9 17:00:46 BST 2025] Failed - check error log
+[Tue Sep  9 05:05:01 PM BST 2025] Starting automated processor...
+[Tue Sep  9 05:10:01 PM BST 2025] Starting automated processor...
+[Tue Sep  9 17:13:16 BST 2025] Starting automated processor...
+[2025-09-09 17:13:22] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:13:22] [INFO] WhatIf mode: False
+[2025-09-09 17:13:22] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:13:38] [INFO] Successfully connected to SharePoint
+[2025-09-09 17:13:38] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-09 17:13:39] [ERROR] Critical error: Attempted to perform an unauthorized operation.
+[2025-09-09 17:13:39] [INFO] Disconnected from SharePoint
+[2025-09-09 17:13:39] [INFO] ==================== PROCESSOR END ====================
+[Tue Sep  9 17:13:39 BST 2025] Failed - check error log
+[Tue Sep  9 05:15:01 PM BST 2025] Starting automated processor...
+[2025-09-09 17:20:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:20:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:20:02] [INFO] WhatIf mode: False
+[2025-09-09 17:20:02] [INFO] WhatIf mode: False
+[2025-09-09 17:20:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:20:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpVbvwHV.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 17:20:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:20:03] [ERROR] Critical error: Unable to connect using provided arguments
+[31;1mDisconnect-PnPOnline: [0m/home/marstack/saber_business_ops/scripts/process-epc.ps1:183[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m 183 | [0m     [36;1mDisconnect-PnPOnline -ErrorAction SilentlyContinue[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mNo connection to disconnect[0m
+[2025-09-09 17:20:03] [INFO] Disconnected from SharePoint
+[2025-09-09 17:20:03] [INFO] Disconnected from SharePoint
+[2025-09-09 17:20:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 17:20:03] [INFO] ==================== PROCESSOR END ====================
+[Tue Sep  9 05:20:03 PM BST 2025] Failed - check error log
+[2025-09-09 17:25:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:25:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:25:01] [INFO] WhatIf mode: False
+[2025-09-09 17:25:01] [INFO] WhatIf mode: False
+[2025-09-09 17:25:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:25:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpm1n4yV.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 17:25:02] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:25:02] [ERROR] Critical error: Unable to connect using provided arguments
+[31;1mDisconnect-PnPOnline: [0m/home/marstack/saber_business_ops/scripts/process-epc.ps1:183[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m 183 | [0m     [36;1mDisconnect-PnPOnline -ErrorAction SilentlyContinue[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mNo connection to disconnect[0m
+[2025-09-09 17:25:03] [INFO] Disconnected from SharePoint
+[2025-09-09 17:25:03] [INFO] Disconnected from SharePoint
+[2025-09-09 17:25:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 17:25:03] [INFO] ==================== PROCESSOR END ====================
+[Tue Sep  9 05:25:03 PM BST 2025] Failed - check error log
+[2025-09-09 17:30:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:30:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:30:01] [INFO] WhatIf mode: False
+[2025-09-09 17:30:01] [INFO] WhatIf mode: False
+[2025-09-09 17:30:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:30:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpouYxuT.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 17:30:02] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:30:02] [ERROR] Critical error: Unable to connect using provided arguments
+[31;1mDisconnect-PnPOnline: [0m/home/marstack/saber_business_ops/scripts/process-epc.ps1:183[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m 183 | [0m     [36;1mDisconnect-PnPOnline -ErrorAction SilentlyContinue[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mNo connection to disconnect[0m
+[2025-09-09 17:30:02] [INFO] Disconnected from SharePoint
+[2025-09-09 17:30:02] [INFO] Disconnected from SharePoint
+[2025-09-09 17:30:02] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 17:30:02] [INFO] ==================== PROCESSOR END ====================
+[Tue Sep  9 05:30:02 PM BST 2025] Failed - check error log
+[2025-09-09 17:35:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:35:01] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:35:01] [INFO] WhatIf mode: False
+[2025-09-09 17:35:01] [INFO] WhatIf mode: False
+[2025-09-09 17:35:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:35:01] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpkHgzlQ.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 17:35:02] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:35:02] [ERROR] Critical error: Unable to connect using provided arguments
+[31;1mDisconnect-PnPOnline: [0m/home/marstack/saber_business_ops/scripts/process-epc.ps1:183[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m 183 | [0m     [36;1mDisconnect-PnPOnline -ErrorAction SilentlyContinue[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mNo connection to disconnect[0m
+[2025-09-09 17:35:02] [INFO] Disconnected from SharePoint
+[2025-09-09 17:35:02] [INFO] Disconnected from SharePoint
+[2025-09-09 17:35:02] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 17:35:02] [INFO] ==================== PROCESSOR END ====================
+[Tue Sep  9 05:35:02 PM BST 2025] Failed - check error log
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 17:37:46] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:37:46] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:37:46] [INFO] WhatIf mode: False
+[2025-09-09 17:37:46] [INFO] WhatIf mode: False
+[2025-09-09 17:37:46] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:37:46] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+Opening in existing browser session.
+[2025-09-09 17:38:02] [INFO] Successfully connected to SharePoint
+[2025-09-09 17:38:02] [INFO] Successfully connected to SharePoint
+[2025-09-09 17:38:02] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-09 17:38:02] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-09 17:38:02] [INFO] No items to process (Status=Submitted and not handled)
+[2025-09-09 17:38:02] [INFO] No items to process (Status=Submitted and not handled)
+[2025-09-09 17:38:02] [INFO] Disconnected from SharePoint
+[2025-09-09 17:38:02] [INFO] Disconnected from SharePoint
+[2025-09-09 17:38:02] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 17:38:02] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 17:38:02 BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 17:40:05] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:40:05] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:40:05] [INFO] WhatIf mode: False
+[2025-09-09 17:40:05] [INFO] WhatIf mode: False
+[2025-09-09 17:40:05] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:40:05] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpAR6VXL.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 17:40:05] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:40:05] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:40:05] [INFO] Disconnected from SharePoint
+[2025-09-09 17:40:05] [INFO] Disconnected from SharePoint
+[2025-09-09 17:40:05] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 17:40:05] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 05:40:05 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 17:45:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:45:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:45:03] [INFO] WhatIf mode: False
+[2025-09-09 17:45:03] [INFO] WhatIf mode: False
+[2025-09-09 17:45:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:45:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpjDwhja.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 17:45:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:45:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:45:03] [INFO] Disconnected from SharePoint
+[2025-09-09 17:45:03] [INFO] Disconnected from SharePoint
+[2025-09-09 17:45:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 17:45:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 05:45:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 17:50:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:50:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:50:03] [INFO] WhatIf mode: False
+[2025-09-09 17:50:03] [INFO] WhatIf mode: False
+[2025-09-09 17:50:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:50:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpJkzaDy.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 17:50:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:50:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:50:03] [INFO] Disconnected from SharePoint
+[2025-09-09 17:50:03] [INFO] Disconnected from SharePoint
+[2025-09-09 17:50:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 17:50:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 05:50:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 17:55:04] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:55:04] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:55:04] [INFO] WhatIf mode: False
+[2025-09-09 17:55:04] [INFO] WhatIf mode: False
+[2025-09-09 17:55:04] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:55:04] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpV5bKcp.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 17:55:04] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:55:04] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 17:55:04] [INFO] Disconnected from SharePoint
+[2025-09-09 17:55:04] [INFO] Disconnected from SharePoint
+[2025-09-09 17:55:04] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 17:55:04] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 05:55:04 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 17:56:28] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:56:28] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 17:56:28] [INFO] WhatIf mode: False
+[2025-09-09 17:56:28] [INFO] WhatIf mode: False
+[2025-09-09 17:56:28] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 17:56:28] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+Opening in existing browser session.
+[2025-09-09 17:56:44] [INFO] Successfully connected to SharePoint
+[2025-09-09 17:56:44] [INFO] Successfully connected to SharePoint
+[2025-09-09 17:56:44] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-09 17:56:44] [INFO] Querying EPC Onboarding list for submitted items
+[2025-09-09 17:56:44] [INFO] No items to process (Status=Submitted and not handled)
+[2025-09-09 17:56:44] [INFO] No items to process (Status=Submitted and not handled)
+[2025-09-09 17:56:44] [INFO] Disconnected from SharePoint
+[2025-09-09 17:56:44] [INFO] Disconnected from SharePoint
+[2025-09-09 17:56:44] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 17:56:44] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 17:56:44 BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:00:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:00:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:00:03] [INFO] WhatIf mode: False
+[2025-09-09 18:00:03] [INFO] WhatIf mode: False
+[2025-09-09 18:00:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 18:00:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpPcv7Zy.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:00:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:00:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:00:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:00:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:00:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 18:00:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:00:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:05:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:05:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:05:03] [INFO] WhatIf mode: False
+[2025-09-09 18:05:03] [INFO] WhatIf mode: False
+[2025-09-09 18:05:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 18:05:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpNxcizc.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:05:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:05:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:05:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:05:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:05:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 18:05:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:05:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:10:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:10:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:10:03] [INFO] WhatIf mode: False
+[2025-09-09 18:10:03] [INFO] WhatIf mode: False
+[2025-09-09 18:10:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-09 18:10:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpLxvdWW.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:10:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:10:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:10:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:10:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:10:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-09 18:10:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:10:04 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
