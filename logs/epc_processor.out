@@ -669,3 +669,395 @@ Error: xsel: Can't open display: (null)
 Next step: Update cron job to use this script
 crontab -e
 */5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 06:15:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:15:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:15:02] [INFO] WhatIf mode: False
+[2025-09-09 18:15:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpsNJvRv.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:15:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:15:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:15:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:15:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 06:20:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:20:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:20:03] [INFO] WhatIf mode: False
+[2025-09-09 18:20:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpBIfurD.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:20:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:20:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:20:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:20:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 06:25:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:25:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:25:03] [INFO] WhatIf mode: False
+[2025-09-09 18:25:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpcXn9sV.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:25:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:25:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:25:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:25:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 06:30:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:30:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:30:03] [INFO] WhatIf mode: False
+[2025-09-09 18:30:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpnSrECq.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:30:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:30:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:30:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:30:04 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 06:35:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:35:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:35:02] [INFO] WhatIf mode: False
+[2025-09-09 18:35:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmptIboA5.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:35:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:35:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:35:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:35:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 06:40:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:40:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:40:03] [INFO] WhatIf mode: False
+[2025-09-09 18:40:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmp3OxUP0.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:40:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:40:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:40:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:40:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 06:45:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:45:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:45:03] [INFO] WhatIf mode: False
+[2025-09-09 18:45:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpTLUOGw.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:45:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:45:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:45:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:45:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 06:50:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:50:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:50:03] [INFO] WhatIf mode: False
+[2025-09-09 18:50:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpVC1gX1.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:50:04] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:50:04] [INFO] Disconnected from SharePoint
+[2025-09-09 18:50:04] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:50:04 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 06:55:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 18:55:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 18:55:02] [INFO] WhatIf mode: False
+[2025-09-09 18:55:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpuDV56w.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 18:55:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 18:55:03] [INFO] Disconnected from SharePoint
+[2025-09-09 18:55:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 06:55:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 07:00:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 19:00:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 19:00:03] [INFO] WhatIf mode: False
+[2025-09-09 19:00:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpPcMaol.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 19:00:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 19:00:03] [INFO] Disconnected from SharePoint
+[2025-09-09 19:00:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 07:00:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 07:05:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 19:05:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 19:05:03] [INFO] WhatIf mode: False
+[2025-09-09 19:05:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpghP5SJ.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 19:05:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 19:05:03] [INFO] Disconnected from SharePoint
+[2025-09-09 19:05:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 07:05:04 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 07:10:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 19:10:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 19:10:02] [INFO] WhatIf mode: False
+[2025-09-09 19:10:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmprth1Um.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 19:10:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 19:10:03] [INFO] Disconnected from SharePoint
+[2025-09-09 19:10:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 07:10:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 07:15:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 19:15:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 19:15:02] [INFO] WhatIf mode: False
+[2025-09-09 19:15:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmp7hq6Lz.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 19:15:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 19:15:03] [INFO] Disconnected from SharePoint
+[2025-09-09 19:15:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 07:15:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
+[Tue Sep  9 07:20:01 PM BST 2025] Starting Saber-PnP-Cli authenticated processor...
+Using certificate authentication...
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-09 19:20:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-09 19:20:03] [INFO] WhatIf mode: False
+[2025-09-09 19:20:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpx6mKpk.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-09 19:20:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-09 19:20:03] [INFO] Disconnected from SharePoint
+[2025-09-09 19:20:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Tue Sep  9 07:20:03 PM BST 2025] Success - Saber-PnP-Cli authentication worked!
+
+Next step: Update cron job to use this script
+crontab -e
+*/5 * * * * /home/marstack/run-processor-saber.sh >> /home/marstack/saber_business_ops/logs/epc_processor.log 2>&1
