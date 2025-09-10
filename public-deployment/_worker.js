@@ -2,6 +2,9 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     
+    // Debug log
+    console.log('Worker received request for:', url.pathname);
+    
     // Only handle API routes
     if (url.pathname === '/api/submit-application') {
       // CORS headers
@@ -83,6 +86,20 @@ export default {
       
       // Method not allowed
       return new Response('Method not allowed', { status: 405 });
+    }
+    
+    // For /api/* routes not handled above, return a different message
+    if (url.pathname.startsWith('/api/')) {
+      return new Response(JSON.stringify({
+        message: 'API endpoint not found',
+        path: url.pathname,
+        timestamp: new Date().toISOString()
+      }), {
+        status: 404,
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
     }
     
     // For all other requests, pass through to static files
