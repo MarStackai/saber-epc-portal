@@ -422,7 +422,7 @@ async function submitToSharePoint(data) {
         console.log('Submitting to API:', submissionData);
         
         // Submit to Cloudflare Worker API
-        const response = await fetch('https://epc-api-worker.marstack.workers.dev/submit-application', {
+        const response = await fetch('/api/submit-application', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
