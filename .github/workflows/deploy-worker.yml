@@ -1,0 +1,22 @@
+name: Deploy API Worker
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'cloudflare-worker/**'
+      - '.github/workflows/deploy-worker.yml'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Deploy Worker
+      uses: cloudflare/wrangler-action@v3
+      with:
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        command: deploy cloudflare-worker/worker.js --name epc-api-worker --compatibility-date 2024-01-01

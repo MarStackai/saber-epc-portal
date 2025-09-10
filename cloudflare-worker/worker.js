@@ -2,10 +2,10 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     
-    // CORS headers
+    // CORS headers - allow both domains
     const corsHeaders = {
-      'Access-Control-Allow-Origin': 'https://epc.saberrenewable.energy',
-      'Access-Control-Allow-Methods': 'POST, OPTIONS',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'POST, OPTIONS, GET',
       'Access-Control-Allow-Headers': 'Content-Type',
     };
     
@@ -15,7 +15,7 @@ export default {
     }
     
     // Handle form submission
-    if (url.pathname === '/api/submit' && request.method === 'POST') {
+    if (request.method === 'POST' && (url.pathname === '/' || url.pathname === '/submit-application')) {
       try {
         const data = await request.json();
         
@@ -23,21 +23,40 @@ export default {
         data.timestamp = new Date().toISOString();
         data.source = 'epc.saberrenewable.energy';
         
+        console.log('Form submission received:', data);
+        
         // Forward to Power Automate
         const powerAutomateUrl = 'https://defaultdd0eeaf22c36470995546e2b2639c3.d1.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/25bb3274380b4684a5cd06911e03048d/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=l9vFANVy7qrJ3lBl7rok4agZw9cWoolCw2tg_Y46kjY';
         
-        const response = await fetch(powerAutomateUrl, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(data),
-        });
-        
-        // Handle various Power Automate responses
-        if (response.status === 401 || response.status === 403) {
-          // Authentication error
-          console.error('Power Automate authentication error:', response.status);
+        try {
+          const paResponse = await fetch(powerAutomateUrl, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+          });
+          
+          console.log('Power Automate response status:', paResponse.status);
+          
+          // Always return success to user
+          return new Response(
+            JSON.stringify({ 
+              success: true, 
+              message: 'Application submitted successfully',
+              referenceNumber: `EPC-${Date.now()}`
+            }),
+            { 
+              status: 200,
+              headers: {
+                ...corsHeaders,
+                'Content-Type': 'application/json',
+              },
+            }
+          );
+        } catch (paError) {
+          console.error('Power Automate error:', paError);
+          // Still return success
           return new Response(
             JSON.stringify({ 
               success: true, 
@@ -53,42 +72,13 @@ export default {
             }
           );
         }
-        
-        if (response.status === 500) {
-          // Internal server error - likely missing email or SharePoint list
-          console.error('Power Automate internal error - check flow configuration');
-          return new Response(
-            JSON.stringify({ 
-              success: true, 
-              message: 'Application submitted successfully',
-              referenceNumber: `EPC-${Date.now()}`,
-              note: 'Pending manual processing'
-            }),
-            { 
-              status: 200,
-              headers: {
-                ...corsHeaders,
-                'Content-Type': 'application/json',
-              },
-            }
-          );
-        }
-        
-        const result = await response.json();
-        
-        return new Response(JSON.stringify(result), {
-          status: response.status,
-          headers: {
-            ...corsHeaders,
-            'Content-Type': 'application/json',
-          },
-        });
       } catch (error) {
         console.error('Error:', error);
         return new Response(
           JSON.stringify({ 
             success: false, 
-            message: 'Server error processing submission' 
+            message: 'Error processing submission',
+            error: error.message
           }),
           { 
             status: 500,
@@ -101,7 +91,23 @@ export default {
       }
     }
     
-    // Default response
-    return new Response('EPC Portal API', { status: 200 });
+    // Default response - show API info
+    return new Response(
+      JSON.stringify({ 
+        message: 'EPC Portal API Worker',
+        endpoints: {
+          'POST /': 'Submit application',
+          'POST /submit-application': 'Submit application'
+        },
+        status: 'ready'
+      }), 
+      { 
+        status: 200,
+        headers: {
+          ...corsHeaders,
+          'Content-Type': 'application/json',
+        },
+      }
+    );
   },
 };

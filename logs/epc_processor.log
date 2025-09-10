@@ -5473,3 +5473,255 @@ Error: xsel: Can't open display: (null)
 [31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
 [31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
 [Wed Sep 10 08:55:03 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-10 09:00:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:00:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:00:03] [INFO] WhatIf mode: False
+[2025-09-10 09:00:03] [INFO] WhatIf mode: False
+[2025-09-10 09:00:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-10 09:00:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpCPaEnE.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-10 09:00:04] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:00:04] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:00:04] [INFO] Disconnected from SharePoint
+[2025-09-10 09:00:04] [INFO] Disconnected from SharePoint
+[2025-09-10 09:00:04] [INFO] ==================== PROCESSOR END ====================
+[2025-09-10 09:00:04] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Wed Sep 10 09:00:04 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-10 09:05:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:05:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:05:03] [INFO] WhatIf mode: False
+[2025-09-10 09:05:03] [INFO] WhatIf mode: False
+[2025-09-10 09:05:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-10 09:05:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpDwGOX3.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-10 09:05:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:05:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:05:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:05:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:05:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-10 09:05:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Wed Sep 10 09:05:03 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-10 09:10:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:10:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:10:03] [INFO] WhatIf mode: False
+[2025-09-10 09:10:03] [INFO] WhatIf mode: False
+[2025-09-10 09:10:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-10 09:10:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpTBW75C.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-10 09:10:04] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:10:04] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:10:04] [INFO] Disconnected from SharePoint
+[2025-09-10 09:10:04] [INFO] Disconnected from SharePoint
+[2025-09-10 09:10:04] [INFO] ==================== PROCESSOR END ====================
+[2025-09-10 09:10:04] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Wed Sep 10 09:10:04 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-10 09:15:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:15:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:15:03] [INFO] WhatIf mode: False
+[2025-09-10 09:15:03] [INFO] WhatIf mode: False
+[2025-09-10 09:15:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-10 09:15:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmp7qMaO4.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-10 09:15:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:15:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:15:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:15:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:15:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-10 09:15:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Wed Sep 10 09:15:03 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-10 09:20:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:20:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:20:03] [INFO] WhatIf mode: False
+[2025-09-10 09:20:03] [INFO] WhatIf mode: False
+[2025-09-10 09:20:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-10 09:20:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpmwsaVh.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-10 09:20:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:20:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:20:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:20:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:20:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-10 09:20:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Wed Sep 10 09:20:04 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-10 09:25:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:25:02] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:25:02] [INFO] WhatIf mode: False
+[2025-09-10 09:25:02] [INFO] WhatIf mode: False
+[2025-09-10 09:25:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-10 09:25:02] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpUqU8ng.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-10 09:25:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:25:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:25:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:25:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:25:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-10 09:25:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Wed Sep 10 09:25:03 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-10 09:30:04] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:30:04] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:30:04] [INFO] WhatIf mode: False
+[2025-09-10 09:30:04] [INFO] WhatIf mode: False
+[2025-09-10 09:30:04] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-10 09:30:04] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmppNMHNa.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-10 09:30:04] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:30:04] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:30:04] [INFO] Disconnected from SharePoint
+[2025-09-10 09:30:04] [INFO] Disconnected from SharePoint
+[2025-09-10 09:30:04] [INFO] ==================== PROCESSOR END ====================
+[2025-09-10 09:30:04] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Wed Sep 10 09:30:04 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-10 09:35:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:35:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:35:03] [INFO] WhatIf mode: False
+[2025-09-10 09:35:03] [INFO] WhatIf mode: False
+[2025-09-10 09:35:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-10 09:35:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpsAhquC.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-10 09:35:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:35:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:35:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:35:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:35:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-10 09:35:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Wed Sep 10 09:35:03 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-10 09:40:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:40:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 09:40:03] [INFO] WhatIf mode: False
+[2025-09-10 09:40:03] [INFO] WhatIf mode: False
+[2025-09-10 09:40:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-10 09:40:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmpjap0JK.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-10 09:40:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:40:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 09:40:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:40:03] [INFO] Disconnected from SharePoint
+[2025-09-10 09:40:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-10 09:40:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Wed Sep 10 09:40:03 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
