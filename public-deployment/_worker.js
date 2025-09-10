@@ -2,6 +2,12 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     
+    // Only handle API routes
+    if (!url.pathname.startsWith('/api/')) {
+      // Pass through to static files
+      return env.ASSETS.fetch(request);
+    }
+    
     // CORS headers
     const corsHeaders = {
       'Access-Control-Allow-Origin': 'https://epc.saberrenewable.energy',
@@ -101,7 +107,16 @@ export default {
       }
     }
     
-    // Default response
-    return new Response('EPC Portal API', { status: 200 });
+    // Default API response
+    return new Response(JSON.stringify({ 
+      message: 'EPC Portal API', 
+      endpoints: ['/api/submit-application'] 
+    }), { 
+      status: 200,
+      headers: {
+        ...corsHeaders,
+        'Content-Type': 'application/json',
+      },
+    });
   },
 };
