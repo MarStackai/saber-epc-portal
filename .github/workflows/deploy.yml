@@ -20,16 +20,12 @@ jobs:
         cp -r public-deployment/* dist/ || echo "Failed to copy files"
         ls -la dist/
         
-    - name: Publish to Cloudflare Pages
-      if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
-      uses: cloudflare/pages-action@v1
+    - name: Deploy to Cloudflare Pages
+      uses: cloudflare/wrangler-action@v3
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        projectName: saber-epc-portal
-        directory: dist
-        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-      continue-on-error: true
+        command: pages deploy dist --project-name=saber-epc-portal
         
     - name: Deployment Status
       if: always()
