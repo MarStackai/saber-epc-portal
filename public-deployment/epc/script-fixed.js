@@ -219,11 +219,17 @@ function saveStepData() {
     
     inputs.forEach(input => {
         if (input.type === 'checkbox') {
-            if (!formData[input.name]) {
-                formData[input.name] = [];
-            }
-            if (input.checked && !formData[input.name].includes(input.value)) {
-                formData[input.name].push(input.value);
+            // Special handling for agreeToTerms checkbox
+            if (input.name === 'agreeToTerms') {
+                formData[input.name] = input.checked;
+            } else {
+                // Regular checkbox handling (for multiple selections)
+                if (!formData[input.name]) {
+                    formData[input.name] = [];
+                }
+                if (input.checked && !formData[input.name].includes(input.value)) {
+                    formData[input.name].push(input.value);
+                }
             }
         } else if (input.type === 'radio') {
             if (input.checked) {
@@ -321,16 +327,20 @@ async function handleSubmit(e) {
     e.stopPropagation();
     
     console.log('Form submission started');
+    console.log('Current form data:', formData);
     
     if (!validateCurrentStep()) {
+        console.error('Current step validation failed');
         return false;
     }
     
     saveStepData();
+    console.log('After saveStepData:', formData);
     
     // Check terms agreement
     if (!formData.agreeToTerms) {
-        showError('Please agree to the terms and conditions');
+        console.error('Terms not agreed. agreeToTerms value:', formData.agreeToTerms);
+        alert('Please agree to the terms and conditions');
         return false;
     }
     
