@@ -5810,3 +5810,31 @@ cat: write error: Broken pipe
 [31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
 [31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
 [Wed Sep 10 09:55:03 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
+Connecting with Saber-PnP-Cli app (certificate)...
+Successfully connected with Saber-PnP-Cli!
+Found 20 SharePoint lists
+[2025-09-10 10:00:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 10:00:03] [INFO] ==================== PROCESSOR START ====================
+[2025-09-10 10:00:03] [INFO] WhatIf mode: False
+[2025-09-10 10:00:03] [INFO] WhatIf mode: False
+[2025-09-10 10:00:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[2025-09-10 10:00:03] [INFO] Connecting to SharePoint: https://saberrenewables.sharepoint.com/sites/SaberEPCPartners
+[33;1mWARNING: Could not execute process. Command line: bash -c "cat /tmp/tmp7hWVtM.tmp | xsel -i --clipboard ".
+Output: 
+
+Error: xsel: Can't open display: (null)
+: Inappropriate ioctl for device
+
+[0m
+[2025-09-10 10:00:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 10:00:03] [ERROR] Critical error: Unable to connect using provided arguments
+[2025-09-10 10:00:03] [INFO] Disconnected from SharePoint
+[2025-09-10 10:00:03] [INFO] Disconnected from SharePoint
+[2025-09-10 10:00:03] [INFO] ==================== PROCESSOR END ====================
+[2025-09-10 10:00:03] [INFO] ==================== PROCESSOR END ====================
+[31;1mWrite-Error: [0m
+[31;1m[36;1mLine |[0m
+[31;1m[36;1m[36;1m  21 | [0m         [36;1mWrite-Error "Saber-PnP-Cli auth failed: $_"[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSaber-PnP-Cli auth failed: No connection to disconnect[0m
+[Wed Sep 10 10:00:03 AM BST 2025] Success - Saber-PnP-Cli authentication worked!
