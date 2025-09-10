@@ -1,3 +1,24 @@
+// Transform form data to match Power Automate schema
+function transformFormData(rawData) {
+  return {
+    invitationCode: rawData.invitationCode || 'UNKNOWN',
+    companyName: rawData.companyName || '',
+    registrationNumber: rawData.companyRegNo || '',
+    contactName: rawData.primaryContactName || '',
+    contactTitle: rawData.contactTitle || '', // May be empty if not in form
+    email: rawData.primaryContactEmail || '',
+    phone: rawData.primaryContactPhone || '',
+    address: rawData.registeredOffice || '',
+    services: Array.isArray(rawData.services) ? rawData.services : (rawData.services ? [rawData.services] : []),
+    yearsExperience: parseInt(rawData.yearsTrading) || 0,
+    teamSize: parseInt(rawData.teamSize) || 0,
+    coverage: Array.isArray(rawData.coverageRegion) ? rawData.coverageRegion.join(', ') : (rawData.coverageRegion || ''),
+    certifications: rawData.certifications || '',
+    timestamp: new Date().toISOString(),
+    source: 'epc.saberrenewable.energy'
+  };
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -14,16 +35,17 @@ export default {
       return new Response(null, { headers: corsHeaders });
     }
     
-    // Handle form submission
-    if (request.method === 'POST' && (url.pathname === '/' || url.pathname === '/submit-application')) {
+    // Handle form submission - Updated endpoints
+    if (request.method === 'POST' && (url.pathname === '/' || url.pathname === '/submit-application' || url.pathname === '/submit-epc-application')) {
       try {
-        const data = await request.json();
+        const rawData = await request.json();
         
-        // Add metadata
-        data.timestamp = new Date().toISOString();
-        data.source = 'epc.saberrenewable.energy';
+        console.log('Raw form submission received:', rawData);
         
-        console.log('Form submission received:', data);
+        // Transform data to match Power Automate schema
+        const data = transformFormData(rawData);
+        
+        console.log('Transformed data for Power Automate:', data);
         
         // Forward to Power Automate
         const powerAutomateUrl = 'https://defaultdd0eeaf22c36470995546e2b2639c3.d1.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/25bb3274380b4684a5cd06911e03048d/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=l9vFANVy7qrJ3lBl7rok4agZw9cWoolCw2tg_Y46kjY';
@@ -97,7 +119,8 @@ export default {
         message: 'EPC Portal API Worker',
         endpoints: {
           'POST /': 'Submit application',
-          'POST /submit-application': 'Submit application'
+          'POST /submit-application': 'Submit application',
+          'POST /submit-epc-application': 'Submit EPC application (with field transformation)'
         },
         status: 'ready'
       }), 
