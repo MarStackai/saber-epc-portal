@@ -1,8 +1,6 @@
-name = "epc-portal-api"
+name = "epc-api-worker"
 main = "worker.js"
 compatibility_date = "2024-01-01"
-account_id = "7c1df500c062ab6ec160bdc6fd06d4b8"
 
-[[routes]]
-pattern = "epc.saberrenewable.energy/api/*"
-zone_name = "saberrenewable.energy"
+[env.production]
+route = { pattern = "epc-api.saberrenewable.energy/*", zone_name = "saberrenewable.energy" }
