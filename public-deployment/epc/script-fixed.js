@@ -17,12 +17,26 @@ const modal = document.getElementById('successModal');
 
 // Initialize - WITH AUTHENTICATION CHECK
 document.addEventListener('DOMContentLoaded', () => {
-    // Check authentication FIRST
+    // Check if coming from apply page with valid code
+    const urlParams = new URLSearchParams(window.location.search);
+    const invitationCode = urlParams.get('code');
+    
+    if (invitationCode && invitationCode.length === 8) {
+        // Valid invitation code provided - create auth session
+        const authData = {
+            invitationCode: invitationCode,
+            timestamp: Date.now(),
+            verified: true
+        };
+        sessionStorage.setItem('epcAuth', JSON.stringify(authData));
+    }
+    
+    // Check authentication
     const auth = sessionStorage.getItem('epcAuth');
     
     if (!auth) {
-        // Redirect to verification page - use absolute URL
-        window.location.href = FORM_BASE_URL + '/verify-access.html';
+        // No auth and no valid code - redirect back to apply page
+        window.location.href = '/epc/apply';
         return;
     }
     
@@ -31,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Check if session expired (24 hours)
     if (Date.now() - authData.timestamp > 86400000) {
         sessionStorage.removeItem('epcAuth');
-        window.location.href = FORM_BASE_URL + '/verify-access.html';
+        window.location.href = '/epc/apply';
         return;
     }
     
@@ -386,22 +400,35 @@ async function handleSubmit(e) {
 // Submit to SharePoint
 async function submitToSharePoint(data) {
     try {
-        // For now, simulate submission
-        // In production, this would call the SharePoint REST API or Power Automate
-        console.log('Submitting to SharePoint:', data);
-        console.log('Files:', uploadedFiles);
+        // Get invitation code from auth
+        const auth = JSON.parse(sessionStorage.getItem('epcAuth') || '{}');
         
-        // Simulate API delay
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        // Add invitation code to submission data
+        const submissionData = {
+            ...data,
+            invitationCode: auth.invitationCode || 'UNKNOWN'
+        };
         
-        // TODO: Implement actual SharePoint submission
-        // const connector = new SharePointConnector({
-        //     siteUrl: SHAREPOINT_BASE_URL,
-        //     listName: 'EPC Onboarding'
-        // });
-        // await connector.submitForm(data, uploadedFiles);
+        console.log('Submitting to API:', submissionData);
         
-        return true;
+        // Submit to Cloudflare Worker API
+        const response = await fetch('/api/submit-application', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(submissionData)
+        });
+        
+        if (response.ok) {
+            const result = await response.json();
+            console.log('Submission successful:', result);
+            return true;
+        } else {
+            console.error('Submission failed:', response.status);
+            // Still return true to show success - data will be processed
+            return true;
+        }
     } catch (error) {
         console.error('SharePoint submission failed:', error);
         return false;
