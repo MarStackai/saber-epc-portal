@@ -421,8 +421,8 @@ async function submitToSharePoint(data) {
         
         console.log('Submitting to API:', submissionData);
         
-        // Submit to Cloudflare Worker API
-        const response = await fetch('/api/submit-application', {
+        // Submit to Cloudflare Worker API (using new endpoint to bypass old worker)
+        const response = await fetch('/submit-epc-application', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

@@ -24,7 +24,7 @@
         
         try {
             // Try the worker endpoint
-            const response = await fetch('https://epc-api-worker.marstack.workers.dev/submit-application', {
+            const response = await fetch('/submit-epc-application', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

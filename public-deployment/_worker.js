@@ -5,8 +5,8 @@ export default {
     // Debug log
     console.log('Worker received request for:', url.pathname);
     
-    // Only handle API routes
-    if (url.pathname === '/api/submit-application') {
+    // Handle both old and new API paths
+    if (url.pathname === '/api/submit-application' || url.pathname === '/submit-epc-application') {
       // CORS headers
       const corsHeaders = {
         'Access-Control-Allow-Origin': '*',
