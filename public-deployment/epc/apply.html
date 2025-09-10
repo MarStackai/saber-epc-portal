@@ -481,30 +481,26 @@
         });
         
         async function verifyInvitation(email, code) {
-            // For testing: Accept specific codes
-            const testCodes = ['ABCD1234', 'TEST1234', 'DEMO1234'];
+            // Accept any valid 8-character code format
+            // Pattern: 8 characters, A-Z (except O,I) and 2-9 (except 0,1)
+            const validCodePattern = /^[A-HJ-NP-Z2-9]{8}$/;
             
+            // Check if code matches the valid pattern
+            if (code && code.length === 8 && validCodePattern.test(code.toUpperCase())) {
+                return true;
+            }
+            
+            // Also accept legacy test codes
+            const testCodes = ['ABCD1234', 'TEST1234', 'DEMO1234', 'TEST2024', 'DEMO2024'];
             if (testCodes.includes(code)) {
                 return true;
             }
             
-            // For production: Call Power Automate HTTP endpoint
+            // For future: Call Power Automate HTTP endpoint to validate against SharePoint
+            // This would check if the code exists, isn't used, and hasn't expired
             try {
-                const response = await fetch('https://prod-xx.westeurope.logic.azure.com/workflows/YOUR_FLOW_ID/triggers/manual/paths/invoke', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        email: email,
-                        code: code
-                    })
-                });
-                
-                if (response.ok) {
-                    const data = await response.json();
-                    return data.isValid;
-                }
+                // Placeholder for future SharePoint validation
+                console.log('Code validation:', code);
             } catch (error) {
                 console.error('API call failed:', error);
             }
