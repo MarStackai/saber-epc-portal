@@ -481,11 +481,11 @@
         });
         
         async function verifyInvitation(email, code) {
-            // Accept any valid 8-character code format
-            // Pattern: 8 characters, A-Z (except O,I) and 2-9 (except 0,1)
-            const validCodePattern = /^[A-HJ-NP-Z2-9]{8}$/;
+            // Accept any valid 8-character alphanumeric code
+            // Updated to accept all letters A-Z and numbers 0-9
+            const validCodePattern = /^[A-Z0-9]{8}$/;
             
-            // Check if code matches the valid pattern
+            // Check if code matches the valid pattern (case-insensitive)
             if (code && code.length === 8 && validCodePattern.test(code.toUpperCase())) {
                 return true;
             }
